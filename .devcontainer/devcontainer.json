@@ -1,0 +1,32 @@
+{
+    "name": "genai-learn",
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "dev",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "MS-CEINTL.vscode-language-pack-ja",
+                "eamodio.gitlens",
+                "yzhang.markdown-all-in-one",
+                "GitHub.copilot"
+            ],
+            "settings": {
+                "extensions.ignoreRecommendations": true,
+                "json.format.enable": true,
+                "files.eol": "\r\n",
+                "editor.tabSize": 4,
+                "chat.agent.enabled": true
+            },
+            "mcp": {
+                "servers": {
+                    "playwright": {
+                        "url": "http://playwright:8931/mcp"
+                    }
+                }
+            }
+        }
+    }
+}
