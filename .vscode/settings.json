@@ -1,0 +1,8 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "json.format.enable": true,
+    "files.eol": "\r\n",
+    "editor.tabSize": 4,
+    "chat.agent.enabled": true,
+    "editor.formatOnSave": true
+}

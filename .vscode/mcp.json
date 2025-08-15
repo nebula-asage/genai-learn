@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "playwright": {
+            "url": "http://playwright:8931/mcp"
+        },
+        "test-mcp-server": {
+            "type": "stdio",
+            "command": "node",
+            "args": [
+                "${workspaceFolder}/test-mcp/build/index.js"
+            ]
+        }
+    }
+}
