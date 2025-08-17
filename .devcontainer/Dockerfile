@@ -17,3 +17,7 @@ RUN \
 
 RUN \
     dnf module install -y nodejs:22
+
+# linux ジョークコマンドのインストール
+RUN dnf install -y epel-release && \
+    dnf install -y sl fortune-mod cowsay
